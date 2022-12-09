@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    font-family: 'Inter', sans-serif;
+}
+a, button, input, h1, h2, h3, h4, p {
+    all: unset;
+}
+ul, li {
+    list-style-type: none;
+}
+
+:root {
+    --accent-color: #F55A5A;
+    --white-color: #fff;
+    --text-color: #2B283A;
+}
+
+.page {
+    .nav {
+        width: 100vw;
+        background-color: var(--accent-color);
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        color: var(--white-color);
+        &__img {
+            width: 24px;
+            height: 24px;
+        }
+        &__title {
+            font-weight: 500;
+            font-size: 14.4608px;
+            line-height: 18px;
+            letter-spacing: -0.075em;
+        }
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 36px;
+        padding: 42px;
+    }
+    .card {
+        display: flex;
+        width: 100%;
+        max-width: 670px;
+        gap: 18px;
+        &__img {
+            width: 125px;
+            border-radius: 6px;
+        }
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__place {
+            display: flex;
+            align-items: center;
+            padding-bottom: 4px;
+            i {
+                font-size: 10px;
+                color: var(--accent-color);
+                padding-right: 6px;
+            }
+            &__country {
+                font-weight: 400;
+                font-size: 10.24px;
+                line-height: 12px;
+                letter-spacing: 0.17em;
+                text-transform: uppercase;
+                color: var(--text-color);
+                padding-right: 24px;
+            }
+            &__link {
+                font-weight: 400;
+                font-size: 10.24px;
+                line-height: 12px;
+                text-decoration-line: underline;
+                color: var(--text-color);
+                opacity: .7;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 1;
+                }
+            }
+        }
+        &__content {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            color: var(--text-color);
+            &__title {
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 30px;
+            }
+            &__date {
+                font-weight: 700;
+                font-size: 10.24px;
+                line-height: 12px;
+            }
+            &__description {
+                font-weight: 400;
+                font-size: 10.24px;
+                line-height: 150%;
+            }
+        }
+    }
+}

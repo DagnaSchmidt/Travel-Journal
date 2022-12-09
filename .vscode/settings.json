@@ -1,0 +1,32 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#2cfcd0",
+        "activityBar.background": "#2cfcd0",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#dc62fd",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#2cfcd0",
+        "statusBar.background": "#03f2bf",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#02c097",
+        "statusBarItem.remoteBackground": "#03f2bf",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#03f2bf",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#03f2bf99",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#03f2bf",
+    "cSpell.words": [
+        "Geiranger",
+        "Geirangerfjord",
+        "Møre",
+        "Romsdal",
+        "Stranda",
+        "Sunnmøre",
+        "webfonts",
+        "zaferes"
+    ]
+}
